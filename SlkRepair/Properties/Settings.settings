@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SlkRepair.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="exFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">;F([FDGCE\*\$]+)\d+[LRCDG]</Value>
+    </Setting>
+    <Setting Name="exStyle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">(?&lt;prefix&gt;;S(?&lt;borders&gt;[LRTBID]*)M)(?&lt;num&gt;\d+)</Value>
+    </Setting>
+    <Setting Name="exPattern" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">;P(?&lt;num&gt;\d+)</Value>
+    </Setting>
+    <Setting Name="exAbsciss" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">;X(?&lt;num&gt;\d+)</Value>
+    </Setting>
+    <Setting Name="exOrdinate" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">;Y(?&lt;num&gt;\d+)</Value>
+    </Setting>
+    <Setting Name="Convert" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="CodePage" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">866</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
